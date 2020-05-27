@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+  margin: 0;
+}
+
+.wrapper-xl {
+  background-color: grey;
+  width: 62vw;
+  height: 100vh;
+}
+
+.wrapper-l {
+  width: 38vw;
+  height: 62vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rebeccapurple;
+}
+
+.wrapper-m {
+  position: fixed;
+  bottom: 0;
+  right: 14vw;
+  height: 38vh;
+  width: 24vw;
+  background-color: hotpink;
+}
+
+.wrapper-s {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  width: 14vw;
+  height: 38vh;
+}
+/*# sourceMappingURL=style.css.map */
