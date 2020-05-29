@@ -17,31 +17,10 @@ body {
 
 .logo {
   width: 100vw;
-  margin-top: 30vh;
+  margin-top: 10vh;
   text-align: center;
-}
-
-@media screen and (max-width: 720px) {
-  .logo {
-    margin-top: 10vh;
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-  .pointers {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding-left: 10vw !important;
-    padding-right: 10vw !important;
-    padding-top: 4vh !important;
-  }
-  .column-items {
-    width: 100% !important;
-    margin-right: 0 !important;
-    padding-top: 4vh;
-  }
-  .description {
-    margin-top: 2vh !important;
-  }
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
 }
 
 .description {
@@ -89,37 +68,4 @@ body {
   font-size: 13px;
   line-height: 22px;
 }
-
-.wrapper-xl {
-  background-color: grey;
-  width: 62vw;
-  height: 100vh;
-}
-
-.wrapper-l {
-  width: 38vw;
-  height: 62vh;
-  position: fixed;
-  right: 0;
-  top: 0;
-  background-color: rebeccapurple;
-}
-
-.wrapper-m {
-  position: fixed;
-  bottom: 0;
-  right: 14vw;
-  height: 38vh;
-  width: 24vw;
-  background-color: hotpink;
-}
-
-.wrapper-s {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background-color: green;
-  width: 14vw;
-  height: 38vh;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=mobile.css.map */

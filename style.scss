@@ -1,6 +1,89 @@
+@font-face {
+	src: url(assets/fonts/SpaceMono-Regular.ttf);
+	font-family: Space-Mono;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url(assets/fonts/Carbon.ttf);
+	font-family: Carbon;
+	font-weight: 500;
+}
+
 body {
-	background-color: #000;
+	background-color: #111;
 	margin: 0;
+}
+
+.logo {
+	width: 100vw;
+	margin-top: 30vh;
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.logo {
+		margin-top: 10vh;
+		transform: scale(0.8);
+	}
+	.pointers {
+        flex-wrap: wrap;
+        padding-left: 10vw !important;
+        padding-right: 10vw !important;
+        padding-top: 4vh !important;
+	}
+	.column-items {
+        width: 100% !important;
+        margin-right: 0 !important;
+        padding-top: 4vh;
+    }
+    .description{
+        margin-top: 2vh !important;
+    }
+}
+
+.description {
+	color: #aaaaaa;
+	font-family: Space-Mono;
+	font-size: 14px;
+	text-align: center;
+	width: 40%;
+	margin-top: 4vh;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 0.8px;
+}
+
+.pointers {
+	display: flex;
+	padding-left: 12vw;
+	padding-right: 12vw;
+	padding-top: 8vh;
+}
+
+.column-items {
+	width: 33%;
+	margin-right: 8vw;
+}
+
+#last-child {
+	margin-right: 0;
+}
+
+.pointers .heading {
+	color: white;
+	opacity: 0.3;
+	font-family: Space-Mono;
+	font-size: 13px;
+}
+
+.pointers .subheading {
+	padding-top: 1vh;
+	opacity: 0.7;
+	color: white;
+	font-family: Space-Mono;
+	font-size: 13px;
+	line-height: 22px;
 }
 
 .wrapper-xl {
@@ -11,27 +94,27 @@ body {
 
 .wrapper-l {
 	width: 38vw;
-    height: 62vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background-color: rebeccapurple;
+	height: 62vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: rebeccapurple;
 }
 
-.wrapper-m{
-    position: fixed;
-    bottom: 0;
-    right: 14vw;
-    height: 38vh;
-    width: 24vw;
-    background-color: hotpink;
+.wrapper-m {
+	position: fixed;
+	bottom: 0;
+	right: 14vw;
+	height: 38vh;
+	width: 24vw;
+	background-color: hotpink;
 }
 
-.wrapper-s{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: green;
-    width: 14vw;
-    height: 38vh;
+.wrapper-s {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: green;
+	width: 14vw;
+	height: 38vh;
 }
