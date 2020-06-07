@@ -49,5 +49,11 @@
         "stylelint": "^9.4.0",
         "uglify-es": "^3.3.10"
     },
-    "main": ".eslintrc.js"
+    "main": ".eslintrc.js",
+    "dependencies": {
+        "aphrodite": "^2.4.0",
+        "aphrodite-jss": "^2.1.0",
+        "jss": "^10.2.0",
+        "jss-preset-default": "^10.2.0"
+    }
 }
