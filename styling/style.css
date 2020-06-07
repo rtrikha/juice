@@ -1,11 +1,11 @@
 @font-face {
-  src: url(assets/fonts/SpaceMono-Regular.ttf);
+  src: url(/resources/fonts/SpaceMono-Regular.ttf);
   font-family: Space-Mono;
   font-weight: 400;
 }
 
 @font-face {
-  src: url(assets/fonts/Carbon.ttf);
+  src: url(/resources/fonts/Carbon.ttf);
   font-family: Carbon;
   font-weight: 500;
 }
